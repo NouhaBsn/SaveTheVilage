@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1564268882788474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4335852546595568}
+  - component: {fileID: 114911474470245564}
+  m_Layer: 0
+  m_Name: EasyInputUtility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4335852546595568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564268882788474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 653.7711, y: 346.868, z: -451.96875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114911474470245564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564268882788474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5831b5db5157664eac18cbb5dc7a7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Axes:
+  - axisName: Horizontal
+    positiveKey: 100
+    negativeKey: 97
+    positive: 0
+    negative: 0
+    axis: 0
+    targetAxis: 0
+    sensitivity: 3
+    pKeyDescription: Right
+    nKeyDescription: Left
+    pUIButton: {fileID: 0}
+    nUIButton: {fileID: 0}
+  - axisName: Vertical
+    positiveKey: 119
+    negativeKey: 115
+    positive: 0
+    negative: 0
+    axis: 0
+    targetAxis: 0
+    sensitivity: 3
+    pKeyDescription: Forward
+    nKeyDescription: Back
+    pUIButton: {fileID: 0}
+    nUIButton: {fileID: 0}
+  - axisName: Jump
+    positiveKey: 32
+    negativeKey: 0
+    positive: 0
+    negative: 0
+    axis: 0
+    targetAxis: 0
+    sensitivity: 3
+    pKeyDescription: Jump
+    nKeyDescription: 
+    pUIButton: {fileID: 0}
+    nUIButton: {fileID: 0}

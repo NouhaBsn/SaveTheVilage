@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/EasyMainMenu/Scenes/Main Menu Old/MainMenu.unity
+  isLoaded: 1
+  isActive: 1
