@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/EasyMainMenu/Scenes/Main Menu Old/MainMenu.unity
+    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
   - enabled: 1
     path: Assets/Cartoon Town and Farm/Demo/Level1.unity
     guid: 7e03fcb5e17dba54fab26c8b72e7bdb9
